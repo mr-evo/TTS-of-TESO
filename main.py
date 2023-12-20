@@ -38,10 +38,10 @@ sr = speech_recognition.Recognizer()
 sr.pause_threshold = 0.5
 print('[info] -- Скрипт запущен')
 
-if str(input("[info] -- Использовать разрешение " + str(wind) +"x"+ str(hei) + " (y/n)")) == str("n"):
+if str(input("[info] -- Использовать разрешение " + str(wind) +"x"+ str(hei) + " (y/n): ")) == str("n"):
     wind = int(input("Введите ширину разрешения используемое в игре:  "))
     hei = int(input("Введите высоту разрешения используемое в игре:  "))
-print("[info] -- Разрешение "+ str(wind) + "x" + str(hei) + " принято, программа успешно запущено")
+print("[info] -- Разрешение "+ str(wind) + "x" + str(hei) + " принято, программа успешно запущено \nУспешных срабатываний: "+str(nu))
 
 # Будем делать только половину скрина
 wind2 = int(wind)/2

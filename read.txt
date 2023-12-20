@@ -1,0 +1,8 @@
+Используемы библиотеки
+pyautogui
+keyboard
+speech_recognition
+pyttsx3
+pytesseract
+
+К последней библиотке требуется установка приложения тесаракт(нейросеть)
